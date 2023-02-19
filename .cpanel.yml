@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/demoradiantnepal/maxima-new.demo.radiantnepal.info/
+    - /bin/cp -r * $DEPLOYPATH

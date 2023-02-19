@@ -1822,6 +1822,7 @@ header {
 }
 .items-cart-inner span{
   color: #000;
+  font-weight: 600;
 }
 .top-cart-row .dropdown-cart .lnk-cart .items-cart-inner .basket-item-count {
   -webkit-border-radius: 100px;

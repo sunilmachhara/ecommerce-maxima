@@ -3213,6 +3213,7 @@ header {
   background: none;
 }
 #owl-main .item {
+  background-image: url(..assets/images/sliders/slider1.png);
   background-color: #ffffff;
   background-position: center ;
   background-size: cover;

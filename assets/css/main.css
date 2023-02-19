@@ -1817,8 +1817,8 @@ header {
   color:#000;
 }
 .items-cart-inner{
-  margin-top: 21px;
-  margin: 19px;
+  margin-top: 21px !important;
+  margin: 15px;
 }
 .items-cart-inner span{
   color: #000;

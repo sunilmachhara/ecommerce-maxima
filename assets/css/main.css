@@ -3214,9 +3214,12 @@ header {
 }
 #owl-main .item {
   background-color: #ffffff;
-  background-position: center 55%;
+  background-position: center ;
   background-size: cover;
+  background-repeat: no-repeat;
   height: 520px;
+  /* width: 100%; */
+
 }
 #owl-main .item .caption {
   color: #636363;
@@ -9169,8 +9172,11 @@ border-style:double;
   margin-bottom: 40px;
   
 }
+.circle img{
+  width: 100%;
+}
 .screen-1 {
-  background: #f1f7fe;
+  background:#0fedb5;;
   padding: 2em;
   display: flex;
   flex-direction: column;
@@ -9180,6 +9186,39 @@ border-style:double;
 }
 .screen-1 .logo {
   margin-top: -7em;
+}
+
+.screen-1 .name {
+  background: white;
+  box-shadow: 0 0 2em #e6e9f9;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 20px;
+  color: #4d4d4d;
+  margin-top: -3em;
+  margin-bottom: 3.5rem;
+}
+.screen-1 .name input {
+  outline: none;
+  border: none;
+}
+.screen-1 .name input::-moz-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+.screen-1 .name input:-ms-input-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+.screen-1 .name input::placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+.screen-1 .name ion-icon {
+  color: #4d4d4d;
+  margin-bottom: -0.2em;
 }
 .screen-1 .email {
   background: white;
@@ -9262,6 +9301,8 @@ border-style:double;
 }
 .screen-1 .footer span {
   cursor: pointer;
+  font-size: 14px;
+  color: #fff;
 }
 
 button {
@@ -9288,4 +9329,60 @@ button {
 .loin-icon h6 i{
    margin-right: 5px;
  }
+ .form-gap {
+  padding-top: 70px;
+}
+
 /* ..........................login end................................. */
+
+ h1 {
+  font-weight: 400;
+}
+h4 {
+margin: 25px 0 5px;
+}
+.testbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  padding: 3px;
+}
+.question-answer label {
+  display: block;
+}
+textarea {
+   width: calc(100% - 12px);
+   padding: 5px;
+}
+
+textarea:hover {
+  outline: none;
+  border: 1px solid #095484;
+            }
+
+.btn-block {
+  margin-top: 20px;
+  text-align: center;
+  }
+  .button-feedback{
+  width: 150px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #095484;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0666a3;
+  }
+  .question-answer label {
+    font-size: 17px;
+    font-weight: 500;
+    color: #000;
+}

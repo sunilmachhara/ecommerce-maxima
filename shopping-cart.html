@@ -9,7 +9,7 @@
   <meta name="author" content="">
   <meta name="keywords" content="MediaCenter, Template, eCommerce">
   <meta name="robots" content="all">
-  <title>Sing in</title>
+  <title>shopping-cart</title>
 
   <!-- Bootstrap Core CSS -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -45,49 +45,50 @@
 <body class="cnt-home">
   <!-- ============================================== HEADER ============================================== -->
   <header class="header-style-1">
+
     <!-- ============================================== TOP MENU ============================================== -->
     <!-- <div class="top-bar animate-dropdown">
-  <div class="container">
-    <div class="header-top-inner">
-      <div class="cnt-account">
-        <ul class="list-unstyled">
-          <li class="myaccount"><a href="#"><span>My Account</span></a></li>
-          <li class="wishlist"><a href="#"><span>Wishlist</span></a></li>
-          <li class="header_cart hidden-xs"><a href="#"><span>My Cart</span></a></li>
-          <li class="check"><a href="#"><span>Checkout</span></a></li>
-          <li class="login"><a href="#"><span>Login</span></a></li>
-        </ul>
+      <div class="container">
+        <div class="header-top-inner">
+          <div class="cnt-account">
+            <ul class="list-unstyled">
+              <li class="myaccount"><a href="#"><span>My Account</span></a></li>
+              <li class="wishlist"><a href="#"><span>Wishlist</span></a></li>
+              <li class="header_cart hidden-xs"><a href="#"><span>My Cart</span></a></li>
+              <li class="check"><a href="#"><span>Checkout</span></a></li>
+              <li class="login"><a href="#"><span>Login</span></a></li>
+            </ul>
+          </div>
+         
+
+          <div class="cnt-block">
+            <ul class="list-unstyled list-inline">
+              <li class="dropdown dropdown-small"> <a href="#" class="dropdown-toggle" data-hover="dropdown"
+                  data-toggle="dropdown"><span class="value">USD </span><b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">USD</a></li>
+                  <li><a href="#">INR</a></li>
+                  <li><a href="#">GBP</a></li>
+                </ul>
+              </li>
+              <li class="dropdown dropdown-small lang"> <a href="#" class="dropdown-toggle" data-hover="dropdown"
+                  data-toggle="dropdown"><span class="value">English </span><b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">English</a></li>
+                  <li><a href="#">French</a></li>
+                  <li><a href="#">German</a></li>
+                </ul>
+              </li>
+            </ul>
+       
+          </div>
+       
+          <div class="clearfix"></div>
+        </div>
+    
       </div>
      
-
-      <div class="cnt-block">
-        <ul class="list-unstyled list-inline">
-          <li class="dropdown dropdown-small"> <a href="#" class="dropdown-toggle" data-hover="dropdown"
-              data-toggle="dropdown"><span class="value">USD </span><b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">USD</a></li>
-              <li><a href="#">INR</a></li>
-              <li><a href="#">GBP</a></li>
-            </ul>
-          </li>
-          <li class="dropdown dropdown-small lang"> <a href="#" class="dropdown-toggle" data-hover="dropdown"
-              data-toggle="dropdown"><span class="value">English </span><b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">English</a></li>
-              <li><a href="#">French</a></li>
-              <li><a href="#">German</a></li>
-            </ul>
-          </li>
-        </ul>
-   
-      </div>
-   
-      <div class="clearfix"></div>
-    </div>
-
-  </div>
- 
-</div> -->
+    </div> -->
     <!-- /.header-top -->
     <!-- ============================================== TOP MENU : END ============================================== -->
     <div class="main-header">
@@ -96,7 +97,7 @@
           <div class="col-xs-12 col-sm-12 col-md-3 logo-holder">
             <!-- ============================================================= LOGO ============================================================= -->
             <div class="logo">
-              <a href="home.html">
+              <a href="index.html">
                 <img src="assets/images/logo/logo.png" alt="logo">
               </a>
             </div>
@@ -125,15 +126,25 @@
             <!-- ============================================================= SHOPPING CART DROPDOWN ============================================================= -->
 
             <div class="dropdown dropdown-cart">
-              <a href="#" class="dropdown-toggle lnk-cart" data-toggle="dropdown">
+              <a href="">
+                <div class="items-cart-inner">
+                  <div class="fro-admin">
+                    <i class="fa-regular fa-heart"></i>
+
+                  </div>
+                  <span>Wish List</span>
+                </div>
+
+              </a>
+              <a href="detail.html" class="dropdown-toggle lnk-cart">
                 <div class="items-cart-inner">
                   <div class="basket">
                     <i class="fa-solid fa-cart-arrow-down"></i>
                   </div>
-                  <span>Cart</span>
+                  <span> My Cart</span>
                 </div>
               </a>
-              <a href="#">
+              <a href="login.html">
                 <div class="items-cart-inner">
                   <div class="fro-admin">
                     <i class="fa fa-user"></i>
@@ -143,6 +154,7 @@
                 </div>
 
               </a>
+
 
             </div>
 
@@ -164,15 +176,15 @@
     <div id="navbar">
       <div class="container">
         <div class="nav-items">
-          <a class="active" href="javascript:void(0)"><i class="fa-solid fa-house"></i>Home</a>
-          <a href="javascript:void(0)"><i class="fa-solid fa-address-card"></i>About</a>
-          <a href="javascript:void(0)"><i class="fa-solid fa-star"></i>New Arrivals</a>
-          <a href="javascript:void(0)"><i class="fa-solid fa-address-book"></i>Contact Us</a>
+          <a class="active" href="index.html"><i class="fa-solid fa-house"></i>Home</a>
+          <a href="about.html"><i class="fa-solid fa-address-card"></i>About</a>
+          <a href="category.html"><i class="fa-solid fa-star"></i>New Arrivals</a>
+          <a href="contact.html"><i class="fa-solid fa-address-book"></i>Contact Us</a>
           <a href=""></a>
         </div>
         <div class="nav-location">
-          <a href=""><i class="fa fa-message"></i>Feedback</a>
-          <a href=""><i class="fa fa-gears"></i>Service Center</a>
+          <a href="feedback.html"><i class="fa fa-message"></i>Feedback</a>
+          <a href="about.html"><i class="fa fa-gears"></i>Service Center</a>
           <a href=""><i class="fa fa-location-dot"></i>location</a>
         </div>
       </div>

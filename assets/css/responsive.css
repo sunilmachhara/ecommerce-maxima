@@ -5,6 +5,11 @@
     margin: 11px;
   }
 }
+@media only screen and (max-width: 1370px) {
+  .main-header .top-search-holder .search-area {
+    width: 115%;
+  }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1200px) {
@@ -33,7 +38,6 @@
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 991px) {
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -75,8 +79,35 @@
   }
   .nav-items i {
     margin-right: 9px;
-    /* margin-left: -4px; */
     font-size: 9px;
     margin-left: 6px;
   }
+}
+@media only screen and (max-width: 375px) {
+  #navbar a {
+    font-size: 6px;
+  }
+  #navbar a {
+    padding: 15px 0px;
+  }
+  .nav-items i {
+    margin-right: 9px;
+    font-size: 9px;
+    margin-left: 6px;
+  }
+
+}
+@media only screen and (max-width: 320px) {
+  #navbar a {
+    font-size: 4px;
+  }
+  #navbar a {
+    padding: 15px 0px;
+  }
+  .nav-items i {
+    margin-right: 9px;
+    font-size: 9px;
+    margin-left: 6px;
+  }
+
 }

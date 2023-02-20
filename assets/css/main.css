@@ -9387,3 +9387,22 @@ button:hover {
     font-weight: 500;
     color: #000;
 }
+.apply-wrapper{
+  height: auto;
+  box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(255 255 255 / 80%) -6px -2px 16px 0px;
+  padding: 20px 20px 20px 20px;
+}
+.form-shopping{
+  padding-bottom: 50px;
+  padding-top: 50PX;
+}
+.form-1{
+  padding: 10px;
+}
+.form-control:focus{
+  box-shadow: none !important;
+  border-color: #00A550 !important;
+}
+.hm_btn_wrapper{
+  margin-left: 10px;
+}

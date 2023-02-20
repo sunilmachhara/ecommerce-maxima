@@ -67,4 +67,16 @@
     margin: 27px 0 0;
     width: 100%;
   }
+  #navbar a {
+    font-size: 8px;
+  }
+  #navbar a {
+    padding: 15px 0px;
+  }
+  .nav-items i {
+    margin-right: 9px;
+    /* margin-left: -4px; */
+    font-size: 9px;
+    margin-left: 6px;
+  }
 }

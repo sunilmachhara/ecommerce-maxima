@@ -1617,11 +1617,11 @@ header {
   vertical-align: middle;
 }
 .main-header .top-search-holder .search-area {
-  width: 65%;
+  width: 100%;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
-  margin: 8px 0 0;
+  margin: 18px 0 0;
   background: #157ED2;
   border-radius: 999px;
   

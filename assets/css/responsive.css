@@ -1,0 +1,70 @@
+/* Extra large devices (large laptops and desktops, 1440px and up) */
+@media only screen and (max-width: 1440px) {
+  .items-cart-inner {
+    margin-top: 21px !important;
+    margin: 11px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+  .items-cart-inner {
+    margin-top: 21px !important;
+    margin: 9px;
+  }
+  .items-cart-inner span {
+    color: #000;
+    font-weight: 600;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .main-header .top-search-holder .search-area {
+    margin: 27px 0 0;
+    width: 100%;
+  }
+  .main-header .top-search-holder .search-area .search-field {
+    width: 89%;
+  }
+  #navbar a {
+    padding: 14px 15px;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 991px) {
+  ...;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .main-header .top-search-holder .search-area {
+    margin: 27px 0 0;
+    width: 133%;
+  }
+  .main-header .top-search-holder .search-area .search-field {
+    width: 74%;
+  }
+  #navbar a {
+    padding: 14px 13px;
+  }
+  #navbar a {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .main-header .top-search-holder .search-area .search-button {
+    padding: 19px 25px;
+    position: absolute;
+    right: 12px;
+    top: 0px;
+  }
+  .main-header .top-search-holder .search-area .search-field {
+    width: 101%;
+  }
+  .main-header .top-search-holder .search-area {
+    margin: 27px 0 0;
+    width: 100%;
+  }
+}

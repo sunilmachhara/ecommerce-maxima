@@ -8544,6 +8544,7 @@ border-style:double;
   #owl-main .owl-item {
     padding: 0px;
   }
+ 
   .wide-banners .wide-banner1 {
     margin-bottom: 30px;
   }
@@ -9414,4 +9415,7 @@ button:hover {
   color: #fff;
   padding: 10px;
  
+}
+.hm-product-image{
+  width: 200px !important;
 }

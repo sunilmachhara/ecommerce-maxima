@@ -323,12 +323,13 @@ jQuery(document).ready(function () {
       var owl = $(this);
       var itemPerLine = owl.data("item");
       if (!itemPerLine) {
-        itemPerLine = 5;
+        itemPerLine = 9;
       }
       owl.owlCarousel({
         items: itemPerLine,
         itemsDesktop: [1199, 3],
         itemsTablet: [991, 2],
+        itemsMobile : [400,2],
         navigation: true,
         pagination: false,
 
@@ -340,7 +341,7 @@ jQuery(document).ready(function () {
       var owl = $(this);
       var itemPerLine = owl.data("item");
       if (!itemPerLine) {
-        itemPerLine = 4;
+        itemPerLine = 7;
       }
       owl.owlCarousel({
         items: itemPerLine,

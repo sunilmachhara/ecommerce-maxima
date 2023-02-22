@@ -72,42 +72,76 @@
     width: 100%;
   }
   #navbar a {
-    font-size: 8px;
+    font-size: 9px;
   }
   #navbar a {
-    padding: 15px 0px;
+    padding: 18px 0px;
   }
   .nav-items i {
     margin-right: 9px;
     font-size: 9px;
     margin-left: 6px;
   }
+  .basket i{
+    color: #000;
+    font-size: 30px;
+    /* margin-top: -30px; */
+  }
+  .top-cart-row .dropdown-cart{
+    float: none;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    left: 81px;
+  }
+  .nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+    right: 40px;
+}
+  
 }
 @media only screen and (max-width: 375px) {
   #navbar a {
-    font-size: 6px;
+    font-size: 8px;
   }
   #navbar a {
-    padding: 15px 0px;
+    padding: 18px 0px;
   }
   .nav-items i {
     margin-right: 9px;
     font-size: 9px;
-    margin-left: 6px;
+    margin-left: 4px;
   }
-
+  .top-cart-row .dropdown-cart{
+    float: none;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    left: 45px;
+  }
+  .nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+    right: 40px;
+}
 }
 @media only screen and (max-width: 320px) {
   #navbar a {
-    font-size: 4px;
+    font-size: 5px;
   }
   #navbar a {
-    padding: 15px 0px;
+    padding: 18px 0px;
   }
   .nav-items i {
     margin-right: 9px;
     font-size: 9px;
     margin-left: 6px;
   }
+  .nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+    right: 40px;
+}
 
 }

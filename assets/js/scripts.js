@@ -323,7 +323,7 @@ jQuery(document).ready(function () {
       var owl = $(this);
       var itemPerLine = owl.data("item");
       if (!itemPerLine) {
-        itemPerLine = 9;
+        itemPerLine = 8;
       }
       owl.owlCarousel({
         items: itemPerLine,

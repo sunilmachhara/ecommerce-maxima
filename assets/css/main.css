@@ -2392,13 +2392,14 @@ header {
   left: 100%;
   margin: 0;
   min-width: 330%;
-  /*338%;*/
+  /* 338%; */
   position: absolute;
   top: 0px;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
   overflow: hidden;
+  z-index: 9999;
 }
 .sidebar .side-menu nav .nav > li > .mega-menu .yamm-content {
   padding: 10px 20px;

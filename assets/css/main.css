@@ -370,7 +370,7 @@ img[src="assets/images/blank.gif"] {
 .featured-product .section-title {
   margin-bottom: 0px;
   margin-top: 0px;
-  font-size: 24px;
+  font-size: 20px;
   font-family: "Barlow", sans-serif;
   font-weight: 600;
   border-bottom: 1px solid #eaeaea;
@@ -595,7 +595,14 @@ img[src="assets/images/blank.gif"] {
 .latest-blog .btn-primary {
   margin: 3px;
 }
+.top-heder{
+  color: #ffffff !important;
+  font-size: 20px;
+}
+.top-heder i{
+  margin-right: 10px;
 
+}
 .latest-blog .section-title {
   margin-bottom: 0px;
   margin-top: 5px;
@@ -2157,6 +2164,7 @@ header {
   border-radius: 0px;
   border: none;
   padding: 0px;
+  max-width: 300px;
 }
 
 .yamm .dropdown-menu .custom-banner a {
@@ -2168,13 +2176,13 @@ header {
 
 .navbar-nav .open a {
   float: none;
-  background: #fff !important;
-  color: #888 !important;
+  /* background: #fff !important; */
+  color: #fff !important;
   border-radius: 3px 3px 0px 0px;
 }
 
 .yamm .dropdown-menu .yamm-content {
-  padding: 20px 20px;
+  padding: 0px 0px;
 }
 
 .yamm .dropdown-menu .yamm-content .col-menu {
@@ -2182,11 +2190,18 @@ header {
 }
 
 .yamm .dropdown-menu .yamm-content .links li a {
-  padding: 8px 22px;
+  padding: 20px 20px;
+    font-size: 18px;
+    color: #000 !important;
+    min-width: 245px;
+}
+.dropdown-options a{
+  padding: 20px 20px;
   font-size: 18px;
   color: #000 !important;
+  min-width: 245px;
+  border-bottom: 1px solid #eaeaea !important;
 }
-
 .yamm .dropdown-menu h2 {
   font-size: 16px;
   color: #555;
@@ -2194,6 +2209,7 @@ header {
   font-weight: 600;
 }
 .yamm .dropdown-menu li {
+  min-width: 245px;
   line-height: normal;
   padding: 0px 0px;
   -webkit-transition: all 0.3s ease 0s;
@@ -2271,7 +2287,7 @@ header {
 }
 .header-nav .navbar-default .dropdown .dropdown-menu.pages .links > li {
   border-bottom: 1px solid #eaeaea;
-  padding: 10px 0;
+  padding: 20px 20px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -2318,7 +2334,7 @@ header {
 
 .sub-drop-down {
   display: inline-block;
-  position: relative;
+  /* position: relative; */
 }
 
 .sub-drop-down a{
@@ -2344,10 +2360,11 @@ header {
 
 .sub-drop-down:hover .dropdown-options {
   display: block;
-  width: 300px;
+  min-width: 245px;
   left: 200px;
-  margin: 10px;
-  top: 10px;
+  /* margin: -2px; */
+  top: 0px;
+  margin-left: 99px;
 }
 
 .dropdown-options a {
@@ -2460,6 +2477,7 @@ header {
 }
 .sidebar .side-menu nav .nav > li > .mega-menu .yamm-content {
   padding: 10px 20px;
+  position: relative;
 }
 .sidebar .side-menu nav .nav > li > .mega-menu .yamm-content ul > li {
   padding: 3px 0;
@@ -3769,7 +3787,7 @@ border-style:double;
   transition: all 0.5s linear 0s;
   width: 100%;
   z-index: 666;
-  left: 50%;
+  left: 65%;
   position: absolute;
   top: 0;
   margin-left: -70px;

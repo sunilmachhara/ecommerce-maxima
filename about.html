@@ -80,6 +80,15 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-12 logo-holder">
                         <!-- ============================================================= LOGO ============================================================= -->
+                        <div id="page-content-wrapper">
+                            <button type="button" class="hamburger animated fadeInLeft is-closed hidden-lg "
+                                data-toggle="offcanvas">
+                                <span class="hamb-top"></span>
+                                <span class="hamb-middle"></span>
+                                <span class="hamb-bottom"></span>
+                            </button>
+
+                        </div>
                         <div class="logo">
                             <a href="index.html">
                                 <img src="assets/images/logo/logo.png" alt="logo">
@@ -111,7 +120,7 @@
 
                         <div class="dropdown dropdown-cart">
                             <a href="">
-                                <div class="items-cart-inner">
+                                <div class="items-cart-inner moblie-hidde">
                                     <div class="fro-admin">
                                         <i class="fa-regular fa-heart"></i>
 
@@ -157,7 +166,7 @@
 
         <!-- ============================================== NAVBAR ============================================== -->
 
-        <div id="navbar">
+        <div id="navbar" class="hidden-xs">
             <div class="container">
                 <div class="header-nav animate-dropdown">
                     <div class="container">
@@ -165,13 +174,17 @@
                             <div class="navbar-header">
                                 <button data-target="#mc-horizontal-menu-collapse" data-toggle="collapse"
                                     class="navbar-toggle collapsed" type="button">
-                                    <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span
-                                        class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
                             </div>
                             <div class="nav-bg-class">
                                 <div class="navbar-collapse collapse" id="mc-horizontal-menu-collapse">
                                     <div class="nav-outer">
-                                        <ul class="nav navbar-nav">
+                                        <ul class="nav navbar-nav hidden-sm">
+
                                             <li class="active dropdown"> <a href="#" class="dropdown-toggle"
                                                     data-toggle="dropdown"><i
                                                         class="fa-solid fa-list"></i>Categories</a>
@@ -212,8 +225,8 @@
                                                                 </li>
                                                                 <li class="sub-drop-down">
                                                                     <a href=""><i class="icon fa fa-laptop"
-                                                                        aria-hidden="true"></i> Laptops
-                                                                    $Computers</a>
+                                                                            aria-hidden="true"></i> Laptops
+                                                                        $Computers</a>
                                                                     <div class="dropdown-options">
                                                                         <a href="brand.html">Dell</a>
                                                                         <a href="brand.html">Lenovo</a>
@@ -238,7 +251,7 @@
                                                                 </li>
                                                                 <li class="sub-drop-down">
                                                                     <a href=""><i
-                                                                        class="icon fa fa-camera"></i>Camera</a>
+                                                                            class="icon fa fa-camera"></i>Camera</a>
                                                                     <div class="dropdown-options">
                                                                         <a href="brand.html">Microsoft</a>
                                                                         <a href="brand.html">Asus</a>
@@ -249,8 +262,8 @@
                                                                 </li>
                                                                 <li class="sub-drop-down">
                                                                     <a href=""><i
-                                                                        class="icon fa fa-headphones"></i>Audio
-                                                                    | Headphones</a>
+                                                                            class="icon fa fa-headphones"></i>Audio
+                                                                        | Headphones</a>
                                                                     <div class="dropdown-options">
                                                                         <a href="brand.html">Asus</a>
                                                                         <a href="brand.html">Adapters</a>
@@ -299,17 +312,40 @@
                                                     </li>
                                                 </ul>
                                             </li>
-                                          
-                                            <li class=" dropdown"> <a href="category.html"><i class="fa-regular fa-star"></i>New Arrivals</a> </li>
-                                            <li class=" dropdown"> <a href="about.html"><i class="fa-solid fa-gears"></i>Service Center</a> </li>
+
+                                            <li class=" dropdown"> <a href="category.html"><i
+                                                        class="fa-regular fa-star"></i>New Arrivals</a> </li>
+                                            <li class=" dropdown"> <a href="about.html"><i
+                                                        class="fa-solid fa-gears"></i>Service Center</a> </li>
 
                                             <li class="dropdown  navbar-right special-menu"> <a href="#">Get 30% off on
                                                     selected items</a> </li>
                                         </ul>
+
+
+                                        <!-- /#wrapper -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                                         <!-- /.navbar-nav -->
+
                                         <div class="clearfix"></div>
                                     </div>
+
                                     <!-- /.nav-outer -->
+
                                 </div>
                                 <!-- /.navbar-collapse -->
 
@@ -323,31 +359,144 @@
                 </div>
                 <!-- /.header-nav -->
                 <!-- ============================================== NAVBAR : END ============================================== -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             </div>
         </div>
 
-
+        <!-- ...................mobile navbar........................... -->
+        <!-- ...................mobile navbar........................... -->
 
 
         <!-- ============================================== NAVBAR : END ============================================== -->
 
     </header>
 
+    <div id="wrapper" class="hidden-lg hidden-md">
+        <div class="overlay"></div>
+
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <!-- <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#team">Team</a></li> -->
+                <li class="dropdown">
+                    <a href="#works" class="dropdown-toggle" data-toggle="dropdown">Maxima's Specials! <span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                        <li><a href="brand.html">Gaming</a></li>
+                        <li><a href="brand.html">Laptop Skins</a></li>
+                        <li><a href="brand.html">Apple</a></li>
+                        <li><a href="brand.html">Dell</a></li>
+                        <li><a href="brand.html">LenovoLenovo</a></li>
+                        <li><a href="brand.html">Microsoft</a></li>
+                        <li><a href="brand.html">Asus</a></li>
+                        <li><a href="brand.html">Adapters</a></li>
+                        <li><a href="brand.html">Batteries</a></li>
+                        <li><a href="brand.html">Cooling Pads</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#works" class="dropdown-toggle" data-toggle="dropdown">Shop By Brand <span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                        <li><a href="brand.html">Gaming</a></li>
+                        <li><a href="brand.html">Laptop Skins</a></li>
+                        <li><a href="brand.html">Apple</a></li>
+                        <li><a href="brand.html">Dell</a></li>
+                        <li><a href="brand.html">LenovoLenovo</a></li>
+                        <li><a href="brand.html">Microsoft</a></li>
+                        <li><a href="brand.html">Asus</a></li>
+                        <li><a href="brand.html">Adapters</a></li>
+                        <li><a href="brand.html">Batteries</a></li>
+                        <li><a href="brand.html">Cooling Pads</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#works" class="dropdown-toggle" data-toggle="dropdown">Laptops $ Computers<span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                        <li><a href="brand.html">Gaming</a></li>
+                        <li><a href="brand.html">Laptop Skins</a></li>
+                        <li><a href="brand.html">Apple</a></li>
+                        <li><a href="brand.html">Dell</a></li>
+                        <li><a href="brand.html">LenovoLenovo</a></li>
+                        <li><a href="brand.html">Microsoft</a></li>
+                        <li><a href="brand.html">Asus</a></li>
+                        <li><a href="brand.html">Adapters</a></li>
+                        <li><a href="brand.html">Batteries</a></li>
+                        <li><a href="brand.html">Cooling Pads</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#works" class="dropdown-toggle" data-toggle="dropdown">Mobile | Tablets<span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                        <li><a href="brand.html">Gaming</a></li>
+                        <li><a href="brand.html">Laptop Skins</a></li>
+                        <li><a href="brand.html">Apple</a></li>
+                        <li><a href="brand.html">Dell</a></li>
+                        <li><a href="brand.html">LenovoLenovo</a></li>
+                        <li><a href="brand.html">Microsoft</a></li>
+                        <li><a href="brand.html">Asus</a></li>
+                        <li><a href="brand.html">Adapters</a></li>
+                        <li><a href="brand.html">Batteries</a></li>
+                        <li><a href="brand.html">Cooling Pads</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#works" class="dropdown-toggle" data-toggle="dropdown">Camera<span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                        <li><a href="brand.html">Gaming</a></li>
+                        <li><a href="brand.html">Laptop Skins</a></li>
+                        <li><a href="brand.html">Apple</a></li>
+                        <li><a href="brand.html">Dell</a></li>
+                        <li><a href="brand.html">LenovoLenovo</a></li>
+                        <li><a href="brand.html">Microsoft</a></li>
+                        <li><a href="brand.html">Asus</a></li>
+                        <li><a href="brand.html">Adapters</a></li>
+                        <li><a href="brand.html">Batteries</a></li>
+                        <li><a href="brand.html">Cooling Pads</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#works" class="dropdown-toggle" data-toggle="dropdown">Audio | Headphones<span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu animated fadeInLeft" role="menu">
+                        <li><a href="brand.html">Gaming</a></li>
+                        <li><a href="brand.html">Laptop Skins</a></li>
+                        <li><a href="brand.html">Apple</a></li>
+                        <li><a href="brand.html">Dell</a></li>
+                        <li><a href="brand.html">LenovoLenovo</a></li>
+                        <li><a href="brand.html">Microsoft</a></li>
+                        <li><a href="brand.html">Asus</a></li>
+                        <li><a href="brand.html">Adapters</a></li>
+                        <li><a href="brand.html">Batteries</a></li>
+                        <li><a href="brand.html">Cooling Pads</a></li>
+                    </ul>
+                </li>
+                </li>
+                <li><a href="#services">Video Conferering</a></li>
+                <li><a href="#contact">Fitness | Smart Wtach</a></li>
+                <li><a href="#followme">Car Accessories</a></li>
+            </ul>
+        </nav>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <!-- <div id="page-content-wrapper">
+            <button type="button" class="hamburger animated fadeInLeft is-closed"
+                data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+                <span class="hamb-middle"></span>
+                <span class="hamb-bottom"></span>
+            </button>
+           
+        </div> -->
+        <!-- /#page-content-wrapper -->
+
+    </div>
     <!-- ============================================== HEADER : END ============================================== -->
     <div class="breadcrumb">
         <div class="container">
@@ -364,185 +513,49 @@
 
     <div class="body-content">
         <div class="container">
-            <div class="checkout-box ">
+            <div class="checkout-boxx ">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-9 col-md-9 rht-col">
-                        <div class="panel-group checkout-steps" id="accordion">
-                            <div class="panel panel-default checkout-step-02">
-                                <div class="panel-heading">
-                                    <h4 class="unicase-checkout-title">
-                                        <a data-toggle="collapse" class="collapsed" data-parent="#accordion"
-                                            href="#collapseTwo">
-                                            <span>2</span>Billing Information
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseTwo" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore
-                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                        ullamco laboris nisi ut
-                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                        voluptate velit esse
-                                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                        proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
-                                        amet, consectetur
-                                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                        aliqua. Ut enim ad minim
-                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat.
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- checkout-step-02  -->
-
-                            <!-- checkout-step-03  -->
-                            <div class="panel panel-default checkout-step-03">
-                                <div class="panel-heading">
-                                    <h4 class="unicase-checkout-title">
-                                        <a data-toggle="collapse" class="collapsed" data-parent="#accordion"
-                                            href="#collapseThree">
-                                            <span>3</span>Shipping Information
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseThree" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore
-                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                        ullamco laboris nisi ut
-                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                        voluptate velit esse
-                                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                        proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
-                                        amet, consectetur
-                                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                        aliqua. Ut enim ad minim
-                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat.
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- checkout-step-03  -->
-
-                            <!-- checkout-step-04  -->
-                            <div class="panel panel-default checkout-step-04">
-                                <div class="panel-heading">
-                                    <h4 class="unicase-checkout-title">
-                                        <a data-toggle="collapse" class="collapsed" data-parent="#accordion"
-                                            href="#collapseFour">
-                                            <span>4</span>Shipping Method
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseFour" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore
-                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                        ullamco laboris nisi ut
-                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                        voluptate velit esse
-                                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                        proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
-                                        amet, consectetur
-                                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                        aliqua. Ut enim ad minim
-                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat.
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- checkout-step-04  -->
-
-                            <!-- checkout-step-05  -->
-                            <div class="panel panel-default checkout-step-05">
-                                <div class="panel-heading">
-                                    <h4 class="unicase-checkout-title">
-                                        <a data-toggle="collapse" class="collapsed" data-parent="#accordion"
-                                            href="#collapseFive">
-                                            <span>5</span>Payment Information
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseFive" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore
-                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                        ullamco laboris nisi ut
-                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                        voluptate velit esse
-                                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                        proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
-                                        amet, consectetur
-                                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                        aliqua. Ut enim ad minim
-                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat.
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- checkout-step-05  -->
-
-                            <!-- checkout-step-06  -->
-                            <div class="panel panel-default checkout-step-06">
-                                <div class="panel-heading">
-                                    <h4 class="unicase-checkout-title">
-                                        <a data-toggle="collapse" class="collapsed" data-parent="#accordion"
-                                            href="#collapseSix">
-                                            <span>6</span>Order Review
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseSix" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore
-                                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                        ullamco laboris nisi ut
-                                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                        voluptate velit esse
-                                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                        proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
-                                        amet, consectetur
-                                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                        aliqua. Ut enim ad minim
-                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat.
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- checkout-step-06  -->
-
-                        </div><!-- /.checkout-steps -->
-                    </div>
-                    <!-- <div class="col-xs-12 col-sm-3 col-md-3 sidebar">
-                        <div class="checkout-progress-sidebar ">
-                            <div class="panel-group">
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h4 class="unicase-checkout-title">Your Checkout Progress</h4>
-                                    </div>
-                                    <div class="">
-                                        <ul class="nav nav-checkout-progress list-unstyled">
-                                            <li><a href="#">Billing Address</a></li>
-                                            <li><a href="#">Shipping Address</a></li>
-                                            <li><a href="#">Shipping Method</a></li>
-                                            <li><a href="#">Payment Method</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
+                    <div class="col-12">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="about-page-area">
+                                <h4>Laptop/PC Repair</h4>
+                                <p>Do you want to fix your laptop or computer right away but don't want to get scammed?
+                                    If
+                                    this is a problem for you, we will take care of it. We will do everything possible
+                                    to
+                                    resolve your issue as quickly as possible while maintaining complete transparency.
+                                </p>
                             </div>
                         </div>
-                    </div> -->
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="about-page-img-area">
+                                <img src="assets/images/banners/0f391-aboutus_image2.jpg" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="about-page-img-area">
+                                <img src="assets/images/banners/0f391-aboutus_image2.jpg" alt="">
+
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="about-page-area">
+                                <h4>Upgrade hardware/Software</h4>
+                                <p>Data recovery is the process of gaining access to and retrieving data from digital
+                                    media that is inaccessible by conventional means. This service is required in a
+                                    variety of circumstances, including user error and deletion, as well as mechanical
+                                    and physical damage to your storage device. If you are going through this problem,
+                                    stop worrying and contact us immediately.
+                                    
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                  
                 </div><!-- /.row -->
             </div><!-- /.checkout-box -->
         </div><!-- /.container -->
@@ -632,10 +645,10 @@
 
                         <div class="module-body">
                             <ul class='list-unstyled'>
-                                <li class="first"><a href="about.html" title="Contact us">About Us</a></li>
-                                <li><a href="contact.html" title="About us">Contact Us</a></li>
-                                <li><a href="category.html" title="New Arrivals">New Arrivals</a></li>
-                                <li><a href="brand.html" title="New Arrivals">Laptops</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="category.html">New Arrivals</a></li>
+                                <li><a href="brand.html">Laptops</a></li>
                             </ul>
                         </div>
                         <!-- /.module-body -->
@@ -737,6 +750,36 @@
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/scripts.js"></script>
     <script src="assets/js/sticky.js"></script>
+    <script>
+        $(document).ready(function () {
+            var trigger = $(".hamburger"),
+                overlay = $(".overlay"),
+                isClosed = false;
+
+            trigger.click(function () {
+                hamburger_cross();
+            });
+
+            function hamburger_cross() {
+                if (isClosed == true) {
+                    overlay.hide();
+                    trigger.removeClass("is-open");
+                    trigger.addClass("is-closed");
+                    isClosed = false;
+                } else {
+                    overlay.show();
+                    trigger.removeClass("is-closed");
+                    trigger.addClass("is-open");
+                    isClosed = true;
+                }
+            }
+
+            $('[data-toggle="offcanvas"]').click(function () {
+                $("#wrapper").toggleClass("toggled");
+            });
+        });
+
+    </script>
 </body>
 
 </html>

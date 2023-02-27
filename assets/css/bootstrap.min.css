@@ -3865,12 +3865,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-.navbar {
-  position: relative;
+/* .navbar {
+  position: absolute;
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
-}
+} */
 @media (min-width: 768px) {
   .navbar {
     border-radius: 4px;

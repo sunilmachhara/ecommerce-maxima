@@ -4,6 +4,9 @@
     margin-top: 21px !important;
     margin: 11px;
   }
+  /* #wrapper{
+  display: none;
+} */
 }
 @media only screen and (max-width: 1370px) {
   .main-header .top-search-holder .search-area {
@@ -35,16 +38,35 @@
   #navbar a {
     padding: 14px 15px;
   }
+  .logo img {
+    max-width: 240px;
+    /* margin-top: 0px; */
+  }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 991px) {
+  .hamburger {
+    margin-left: -63px;
+    top: 33px;
+  }
+  .logo img {
+    max-width: 200px;
+    margin-top: -23px;
+  }
+  .main-header .top-search-holder .search-area .search-field {
+    width: 71%;
+  }
+  .main-header .top-search-holder .search-area {
+    margin: 20px 0 0;
+    width: 100%;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
   .main-header .top-search-holder .search-area {
     margin: 27px 0 0;
-    width: 133%;
+    width: 120%;
   }
   .main-header .top-search-holder .search-area .search-field {
     width: 74%;
@@ -54,6 +76,17 @@
   }
   #navbar a {
     font-size: 12px;
+  }
+  .logo img {
+    max-width: 176px;
+    margin-left: 55px;
+    margin-top: -9px;
+  }
+  .hamburger {
+    top: 40px;
+  }
+  .hamburger {
+    margin-left: 0px;
   }
 }
 
@@ -82,24 +115,44 @@
     font-size: 9px;
     margin-left: 6px;
   }
-  .basket i{
+  .basket i {
     color: #000;
     font-size: 30px;
     /* margin-top: -30px; */
   }
-  .top-cart-row .dropdown-cart{
+  .top-cart-row .dropdown-cart {
     float: none;
     text-align: center;
     display: flex;
     align-items: flex-end;
-    left: 81px;
+    left: 223px;
+    top: -158px;
+  }
+  .logo img {
+    max-width: 140px;
+    margin-left: 73px;
+  }
+  .moblie-hidde {
+    display: none;
   }
   .nav-tabs > li {
     float: left;
     margin-bottom: -1px;
     right: 40px;
-}
-  
+  }
+  #navbar {
+    margin-top: -71px;
+  }
+  .hidden-sm {
+    display: none;
+  }
+  .navbar-mobile-hidde {
+    display: none;
+  }
+  .search-area {
+    margin: 11px 0 0;
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 375px) {
   #navbar a {
@@ -113,7 +166,7 @@
     font-size: 9px;
     margin-left: 4px;
   }
-  .top-cart-row .dropdown-cart{
+  .top-cart-row .dropdown-cart {
     float: none;
     text-align: center;
     display: flex;
@@ -124,7 +177,7 @@
     float: left;
     margin-bottom: -1px;
     right: 40px;
-}
+  }
 }
 @media only screen and (max-width: 320px) {
   #navbar a {
@@ -142,6 +195,5 @@
     float: left;
     margin-bottom: -1px;
     right: 40px;
-}
-
+  }
 }
